@@ -37,7 +37,7 @@ public class TravelPackageActivity extends AppCompatActivity {
     @AfterViews
     public void start() {
         this.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        
+
         this.travelPackage = this.getIntent().getParcelableExtra(Constant.TRAVEL_PACKAGE);
 
         this.titleTxt.setText(this.travelPackage.title);
