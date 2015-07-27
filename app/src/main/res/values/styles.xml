@@ -1,0 +1,20 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/Widget.ActionBar</item>
+    </style>
+
+    <style name="Widget.ActionBar" parent="Widget.AppCompat.ActionBar">
+        <item name="logo">@mipmap/ic_launcher</item>
+        <item name="displayOptions">useLogo|showTitle|showHome</item>
+        <item name="titleTextStyle">@style/TitleTextStyle</item>
+
+        <item name="android:background">@drawable/custom_background_bar</item>
+        <item name="background">@drawable/custom_background_bar</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+</resources>

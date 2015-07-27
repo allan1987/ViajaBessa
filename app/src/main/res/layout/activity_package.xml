@@ -1,0 +1,79 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".controller.TravelPackageActivity">
+
+    <ScrollView
+        android:id="@+id/packageScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:layout_above="@+id/buyBtn">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/titleTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/titleCardView"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/priceLabelTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/priceCardView"
+                android:textSize="14sp"
+                android:text="@string/priceLabel"
+                android:layout_below="@+id/titleTxt"/>
+
+            <TextView
+                android:id="@+id/priceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_marginLeft="5dip"
+                android:textColor="@color/priceCardView"
+                android:textSize="14sp"
+                android:layout_toRightOf="@+id/priceLabelTxt"
+                android:layout_below="@+id/titleTxt"/>
+
+            <ImageView
+                android:id="@+id/photoImg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/priceTxt"/>
+
+            <TextView
+                android:id="@+id/descriptionTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:textColor="@color/descriptionCardView"
+                android:textSize="14sp"
+                android:layout_below="@+id/photoImg"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buyPackage"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

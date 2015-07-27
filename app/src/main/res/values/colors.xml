@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundCardView">#22ff7a00</color>
+    <color name="titleCardView">#ff000000</color>
+    <color name="descriptionCardView">#ff000000</color>
+    <color name="priceCardView">#ff059400</color>
+    <color name="actionBar">#ffbe6c00</color>
+    <color name="ourBlue">#ff1061b7</color>
+    <color name="ourWhite">#ffffffff</color>
+    <color name="ourGray">#57626f</color>
+    <color name="cardViewGray">#e9e9e9</color>
+</resources>

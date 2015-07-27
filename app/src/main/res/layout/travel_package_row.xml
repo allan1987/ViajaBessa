@@ -1,0 +1,56 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dip"
+    card_view:cardBackgroundColor="@color/backgroundCardView"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="2dip"
+    card_view:cardCornerRadius="5dip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip">
+
+        <ImageView
+            android:id="@+id/photoImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="2dip"/>
+
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/titleCardView"
+            android:textSize="20sp"
+            android:layout_below="@+id/photoImg"/>
+
+        <TextView
+            android:id="@+id/priceLabelTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:textColor="@color/priceCardView"
+            android:textSize="14sp"
+            android:text="@string/priceLabel"
+            android:layout_below="@+id/titleTxt"/>
+
+        <TextView
+            android:id="@+id/priceTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="5dip"
+            android:textColor="@color/priceCardView"
+            android:textSize="14sp"
+            android:layout_toRightOf="@+id/priceLabelTxt"
+            android:layout_below="@+id/titleTxt"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

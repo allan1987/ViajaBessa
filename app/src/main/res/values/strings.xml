@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ViajaBessa</string>
+    <string name="action_exit">Sair</string>
+    <string name="internetError">Sem conectividade. Por favor verifique o seu acesso à Internet</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="warning">Atenção</string>
+    <string name="select">Selecione</string>
+    <string name="pleaseWait">Por favor, aguarde…</string>
+    <string name="priceLabel">Preço: R$</string>
+    <string name="buyPackage">Comprar Pacote</string>
+    <string name="details">Detalhes</string>
+    <string name="buyWithSuccess">Pacote comprado com sucesso!</string>
+</resources>
